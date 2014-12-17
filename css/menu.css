@@ -1,3 +1,100 @@
-@charset "utf-8";
-/* CSS Document */
+.menu
+{
+   
+    float: left;
+    margin-top: 30px;
+}
+.menu ul
+{
+    float: left;
+    font-size: 18px;
+}
+.menu ul li
+{
+    float: left;
+    list-style-type: none;
+    height: 80px;
+    color: white;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: #a49191;
+    
+    line-height: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+.menu ul li a:hover
+{
+    background: #5a93e9;
+    margin: 0px;
+    padding: 15px 16px 15px 16px;
+    line-height: 50px;
+}
+.menu ul li ul
+{
+    position: absolute;
+    margin-top: -13px;
+    padding: 6px 0px 6px 0px;
+    background: #594e4e;
+    z-index: 10;
+    display: none;
+}
+.menu ul li:hover ul
+{
+    display: block;
+}
 
+.menu ul li ul li
+{
+    float: none;
+    height: 28px;
+    min-width: 186px;
+    padding: 0px;
+    margin: 0px;
+}
+.menu ul li ul li a
+{
+    line-height: 28px;
+    padding: 0px 0px 0px 8px;
+    margin: 2px 0px 2px 0px;
+    background: #5a93e9;
+    text-align: left;
+}
+.search-nav
+{
+    float: right;
+    padding: 15px 0px 15px 0px;
+    height: 50px;
+}
+.search-nav span
+{
+    float: left;
+    display: block;
+    background: #a49191;
+    padding: 0px 16px 0px 16px;
+    margin-right: 1px;
+}
+.search-nav input
+{
+    margin: 12px 0px 12px 0px;
+    height: 22px;
+    width: 186px;
+    background: #e6e6e6;
+    border: none;
+    color: #a49191;
+    padding: 2px 14px 2px 14px;
+}
+
+.search-nav img
+{
+    float: right;
+    height: 50px;
+}

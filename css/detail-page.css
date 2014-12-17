@@ -1,0 +1,38 @@
+
+.detail-content-container {
+	width: inherit;
+	min-height: 123px;
+}
+.detail-content {
+	float: left;
+	margin-left: 22px;
+	width: 540px;
+}
+.detail-content h1 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.detail-content p {
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 15px;
+}
+.detail-right {
+	width: 280px;
+	margin-right: 5px;
+	float: right;
+        /*background-color: #3794a5;*/
+        height: 490px;
+}
+.detail-right span img 
+{
+/*    margin-left: 70px;
+    margin-top: 58px;*/
+}
+.detail-right span {
+	display: block;
+	text-align: center;
+	padding: 25px 60px 65px 0px;
+        font-size: 28px;
+}

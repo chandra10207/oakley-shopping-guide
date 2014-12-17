@@ -1,0 +1,44 @@
+CSS
+.language-select
+{
+    height:20px;
+    width: 200px;
+    float: left;
+}
+.country-img img{
+    height: 18px;
+    width: 23px;
+    float: left;
+    margin-right: 10px;
+}
+
+.select-country
+{
+    float: left;
+}
+
+JS
+
+function changeFlag()
+{
+	var img=document.getElementById("flagImage");
+	var currentCountry=document.getElementById("flag");
+	img.setAttribute("src",currentCountry[currentCountry.selectedIndex].getAttribute("src"));
+	img.setAttribute("alt",currentCountry[currentCountry.selectedIndex].getAttribute("alt"));
+}
+
+
+
+<div class="language-select">
+                            <div class="country-img"><img src="images/us-flag.png" alt="us flag" id="flagImage"></img></div>
+                            <div class="select-country">
+                                <form action="" method="post">                                
+                                <select onChange="changeFlag()" id="flag">
+                                <option value="us" src="images/us-flag.png" alt="us flag">Change country</option>
+                                <option value="us" src="images/us-flag.png" alt="us flag">Us</option>
+                                <option value="nepal" src="images/nepal.png" alt="nepal flag">Nepal</option>
+                                <option value="india" src="images/india.png" alt="india flag">India</option>
+                            </select> 
+                                </form>
+                            </div>
+                        </div>
