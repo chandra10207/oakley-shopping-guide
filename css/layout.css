@@ -68,14 +68,27 @@
     margin-left:3px;
     margin-right: 3px;
 }
-.content-main-menu ul li:first-child
+
+.content-main-menu ul li:active {
+    margin-top: 7px;
+    margin-left:3px;
+    margin-right: 3px;
+}
+.activetab
 {
     margin-top: 7px;
+    margin-left:3px !important;
+    margin-right: 3px !important;
 }
 
 .content-main-body {
     min-height: 327px;
     width: 1008px;
+    display: none;
+}
+#tab0
+{
+    display: block;
 }
 .content-main-body ul li {
     float: left;

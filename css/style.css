@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 .slider {
     width: 1009px;
     height: 191px;
@@ -63,9 +61,6 @@
     position: absolute;
     border: none;
 }
-
-
-
 .active {
     margin: 7px 2px 0px 2px !important;
 }

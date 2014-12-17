@@ -1,4 +1,5 @@
 // JavaScript to slide image
+
 var sliderContainer = document.getElementById("slider");
 var sliderObj = new Slider();
 sliderObj.init(sliderContainer);
