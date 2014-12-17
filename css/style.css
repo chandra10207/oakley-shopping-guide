@@ -88,6 +88,10 @@
     margin-left: 23px;
     width: 540px;
 }
+.content-top-text span
+{
+    margin-top: 22px;
+}
 .content-top-text h1 {
     font-size: 18px;
     margin-bottom: 10px;
@@ -168,6 +172,30 @@
     text-align: justify;
 }
 
+.button{
+   background: url('../images/button-left.png');
+   padding:3px 0px 2px 9px;
+   height:25px;
+   /*margin-top: 22px;*/
+}
+.button a{
+	font-size: 12px;
+	line-height: 16px;
+	height: 26px;
+    color: white;
+	padding: 6px 5px 2px 0px;
+    background: url('../images/button-right.png') 100% 0 no-repeat;
+	text-decoration:none;
+}
+.shop-all-link
+{
+    margin-top: 22px;
+}
+
+.button-small-contents
+{
+    margin-bottom: -10px;
+}
 .lightbox {
     position: absolute;
     top: 14px;
