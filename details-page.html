@@ -1,17 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="css/layout.css"/>
-        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
-        <link href="css/detail-page.css" rel="stylesheet" type="text/css"/>
-        <link href="css/lightbox.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <title>Leapfrog Final Project</title>
     </head>
     <body>
         <div class="main-wrapper">
-
             <div class="header">
                 <div class="logo"><a href="#"><img src="images/logo.png" alt="logo" /></a></div>
                 <div class="menu">
@@ -22,20 +20,19 @@
                             <ul>
                                 <li><a href="">Decorre</a></li>
                                 <li><a href="">Omega</a></li>
-                                <li><a href="">Kaianga</a></li>
+                                <li><a href="">Kaianga</a></li>                                
                             </ul>
                         </li>
                         <li><a href="">Contact</a></li>
                     </ul>
                     <div class="search-nav">
                         <span>
-                            <input type="text" placeholder="Search" id="search-input" />
-                        </span> 
-                        <a href="#"> <img src="images/search-button.png" /></a>
+                            <input type="text" value="Search" id="search-input" />
+                        </span>
+                        <a href="#"> <img src="images/search-button.png" alt="search button" /></a>
                     </div>
                 </div>
             </div>
-
             <div class="slider-body">
                 <div class="slider" id="slider">
                     <ul>
@@ -46,39 +43,24 @@
                         <li><img src="images/slider-image2.png" alt="slider image 2" /><span>fifth slider</span></li>
                         <li><img src="images/slider-image3.png" alt="slider image 3" /><span>sixth slider</span></li>
                     </ul>
-                </div>    
-            </div>
-
-
-
-
-
-            <div class="content">
-                <div class="overlay" id="olay">
-
-                    <div class="lightbox" id="lbox"></div></div>
-                <div class="detail-content-container  clearfix">
-                    <div class="detail-content">
-                        <h1>WOMEN'S SUNGLASSES</h1>
-                        <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
-                        <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
-                        <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
-                        <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
-                    </div>
-                    
-                    <div class="detail-right" id="detail">
-                        <img src="images/sport.png"/>
-                        <span><img src="images/zoom-icon.png" id="zoom-button"/></span>
-                        <span>58.00 USD</span>
-                    </div>
-<!--                    <div class="detail-right" id="zoom"> 
-                        <img src="images/sport.png"/>
-                        <img src="images/zoom-icon.png" id="zoom-button"/>
-                         <span class="main-right-buy button">58.00 USD</span>
-                         <span ><a href="">BUY</a></span>
-                    </div>-->
                 </div>
-
+            </div>
+            <div class="content" id="contentId">    
+                <div class="content-details">
+                    <h1>WOMEN'S SUNGLASSES</h1>
+                    <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
+                    <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
+                    <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
+                    <p>With sunglass style  and fits designed exclusively for woman, fashion meets function through the lens of High Definition Optics (R). From the tried and true to everything new, we've created an entirely new dimension with Oakley Women's Sunglasses.</p>
+                </div>    
+                <div class="zoom-right-side">
+                    <img src="images/sport.png" alt="sport image"/>
+                    <img id="zoomImg" src="images/zoom-icon.png" alt="zoom icon" class="zoomImg" />                    
+                    <div class="buy-button">
+                        <span>58.00 USD</span>
+                        <button>BUY</button>
+                    </div>
+                </div>
             </div>
             <div class="seperater-line-downko"></div>
 
@@ -88,48 +70,43 @@
                         <p>If you want the best clarity and protection on the planet, nothing comes close to Oakley's High Definition Optics ® (HDO (R)). Its patented technologies surpass all tests of the American National Standards Institute.</p>
                     </div>
                     <ul>
-                        <li> <img src="images/footer-top-icon-hd-polarized.png"></img> <p> HD POLARIZED</p>
+                        <li> <img src="images/footer-top-icon-hd-polarized.png" alt="hd polarized"><p> HD POLARIZED</p>
                             <span>Oakley uses a liquid infusion process that creates bonding at the molecular level, allowing the filter to achieve the highest possible level of performance.</span>
                         </li>
-                        <li> <img src="images/footer-top-icon-hydrophobic.png"></img> <p> HYDROPHOBIC</p>
+                        <li> <img src="images/footer-top-icon-hydrophobic.png" alt="hydrophobic"><p> HYDROPHOBIC</p>
                             <span> A permanent lens coating that prevents rain and sweat from building up on the lens. It also repels skin oils, so the lens is smudge resistant and easy to keep clean.</span>
                         </li>
-                        <li> <img src="images/footer-top-icon-prescription.png"></img> <p>PRESCRIPTION</p>
+                        <li> <img src="images/footer-top-icon-prescription.png" alt="prescription"><p>PRESCRIPTION</p>
                             <span>From the office to any playing surface, Oakley prescription eye wear can put things in focus fo everywhere in between. Sunglasses, too.</span>
                         </li>
-                        <li> <img src="images/footer-top-icon-photochromic.png"></img> <p> PHOTOCHROMIC</p>
+                        <li> <img src="images/footer-top-icon-photochromic.png" alt="photochromic"><p> PHOTOCHROMIC</p>
                             <span> Light conditions change constantly and if your eyes can't keep up, your performance will suffer. Maintain peak performance while being shielded from 100% of all harmful UV rays</span>
                         </li>
                     </ul>
-
-
                 </div>
-
                 <div class="footer-top-menu">
                     <ul>
-                        <li><img src="images/homebtn.png"></img></li>
+                        <li><img src="images/homebtn.png" alt="homebutton"></li>
                         <li><a href="">Women</a></li>
                         <li><a href="">Store</a></li>
                         <li><a href="">Women's Sunglasses</a></li>
                     </ul>
                 </div>
-
                 <div class="footer-bottom">
                     <div class="footer-bottom-menu">
                         <div class="language-select">
-                            <div class="country-img"><img src="images/us-flag.png" alt="us flag" id="flagImage"></img></div>
+                            <div class="country-img"><img src="images/us-flag.png" alt="us flag" id="flagImage"></div>
                             <div class="select-country">
-                                <form action="" method="post">                                
+                                <form action="#" method="post">
                                     <select onChange="changeFlag()" id="flag">
-                                        <option value="us" src="images/us-flag.png" alt="us flag">Change country</option>
-                                        <option value="us" src="images/us-flag.png" alt="us flag">Us</option>
-                                        <option value="nepal" src="images/nepal.png" alt="nepal flag">Nepal</option>
-                                        <option value="india" src="images/india.png" alt="india flag">India</option>
-                                    </select> 
+                                        <option value="images/us-flag.png">Change country</option>
+                                        <option value="images/us-flag.png" >Us</option>
+                                        <option value="images/nepal.png" >Nepal</option>
+                                        <option value="images/india.png">India</option>
+                                    </select>
                                 </form>
                             </div>
-                        </div>
-                        <!--<span><a href="#">Change Country<img src="images/language-arrow.png"/></a></span>-->
+                        </div>                        
                         <ul>
                             <li><a href="">Gift Cards</a></li>
                             <li><a href="">Site Map</a></li>
@@ -144,17 +121,11 @@
                         </ul>
                         <span>Copyright © 2014 Oakley, Inc, All Rights Reserved</span>
                     </div>
-
                 </div>
-
-
             </div>
-
-
-
         </div>
-        <!--<script src="js/slider.js" type="text/javascript"></script>-->
-        <script src="js/language.js" type="text/javascript"></script>
+        <script src="js/slider.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
         <script src="js/lightbox.js" type="text/javascript"></script>
     </body>
 </html>
